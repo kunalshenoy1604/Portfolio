@@ -496,3 +496,71 @@ footer {
     box-sizing: border-box;
   } 
 
+@media(max-width:820px){
+    .navbar{
+      
+      display: flex;
+      justify-content: left;
+      text-align: left;
+      font-size:15px;
+      padding-left: 180px;
+      padding-right: 600px;
+      flex-direction: column;
+    }
+
+    .home{
+      margin-top: 300px;
+      height: 10vh;
+      font-size: 13px;
+
+    }
+    .home .home-content h1{
+      font-size: 30px;
+    }
+    .home .home-content h3{
+      font-size: 20px;
+    }
+    .home .home-content p{
+      display: block;
+      margin-right: 10px;
+      margin-bottom: 20px;
+      padding-right: 150px;
+      
+    }
+    .home .btn-box{
+      width: 50vw;
+    }
+    .home .homepage{
+      display: none;
+    }
+
+    .aboutHeader{
+      padding:50px auto;
+      margin-top: 80px;
+      margin-right: 25vh;
+      font-size: 20px;
+    }
+    .about .about-img{
+      display: flex;
+      padding:40px;
+      width: 500px;
+      padding-top: 50px;
+      margin-right: 21vh;
+      justify-content: left;
+    }
+    .about .about-content h3{
+      display: flex;
+      margin-left: 13.5vh;
+      padding: 20px;
+    }
+    .about .about-content p{
+      display: block;
+      margin-right: 10px;
+      margin-bottom: 20px;
+      padding: 0 20px;
+      padding-right: 350px;
+      padding-left: 90px;
+      justify-content: left;
+      text-align: left;
+    }
+  }
