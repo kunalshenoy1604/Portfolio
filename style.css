@@ -553,7 +553,7 @@ footer {
     .about .about-img{
       display: flex;
       margin-top: 50px;
-      width: 600px;
+      width: 450px;
       padding-top: 80px;
       margin-left: 15vh;
       margin-right: 1vh;
@@ -626,7 +626,7 @@ footer {
       margin-left: 20vh;
     }
     .footer{
-      
+      display: flex;
     }
     .footer .container{
       margin: 0 auto;
