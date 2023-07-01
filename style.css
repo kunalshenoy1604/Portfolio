@@ -636,16 +636,3 @@ footer {
     }
   }*/
 
-@media(max-width:820px){
-    .about .about-img{
-      width: 400px;
-      padding-top: 80px;
-      margin-left: 15vh;
-      margin-right: 1vh;
-      justify-content: center;
-    }
-    .navbar a{
-        font-size:13px;
-    }
-
-}
