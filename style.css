@@ -644,5 +644,8 @@ footer {
       margin-right: 1vh;
       justify-content: center;
     }
+    .navbar a{
+        font-size:13px;
+    }
 
-
+}
