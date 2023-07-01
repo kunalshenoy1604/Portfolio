@@ -643,6 +643,10 @@ footer {
       margin-left: 15vh;
       margin-right: 1vh;
       justify-content: center;
-      
+    }
+    .about-content p{
+        display: flex;
+        text-align:center;
+        justify-content: center;
     }
 
