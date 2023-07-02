@@ -246,6 +246,8 @@ span{
     width: 15rem;
 }
 
+
+
 .header_experience{
     font-size: 32px;
     font-weight: 700;
@@ -442,6 +444,22 @@ span{
     height: 100%;
   }
 
+  .SkillsHeader{
+    font-size: 35px;
+    text-align: center;
+    justify-content: center;
+  }
+  .skill img{
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    padding: 0 10px;
+    box-sizing: border-box;
+    margin: 40px;
+    cursor: pointer;
+  }
+
 
 
 
@@ -528,6 +546,9 @@ footer {
   .MyProjectsTitle h2{
     font-size: 35px;
   }
+  .SkillsHeader h2{
+    font-size: 35px;
+  }
   .project-icon lord-icon{
     height: 200px;
     width: 200px;
@@ -543,6 +564,9 @@ footer {
     margin: 0;
   }
   .CertificationsTitle h2{
+    font-size: 35px;
+  }
+  .SkillsHeader h2{
     font-size: 35px;
   }
   .MyProjects{
@@ -601,6 +625,9 @@ footer {
   .experience h2{
     font-size: 22px;
   }
+  .SkillsHeader h2{
+    font-size: 22px;
+  }
 }
 @media(max-width:627px){
   .navbar a{
@@ -609,6 +636,9 @@ footer {
   }
   .logoname a{
     font-size: 11px;
+  }
+  .SkillsHeader h2{
+    font-size: 35px;
   }
 }
 @media(max-width:589px){
@@ -644,6 +674,9 @@ footer {
   .experience p{
     font-size: 10px;
   }
+  .SkillsHeader h2{
+    font-size: 17px;
+  }
   
 }
 @media(max-width:515px){
@@ -667,8 +700,18 @@ footer {
   .experience p{
     font-size: 10px;
   }
+  .SkillsHeader h2{
+    font-size: 35px;
+  }
   .home-sci{
     display: none;
+  }
+  .skill img{
+    margin: 5 15px ;
+    padding: 0;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
   }
 }
 
@@ -689,6 +732,9 @@ footer {
   }
   .experience p{
     font-size: 10px;
+  }
+  .SkillsHeader h2{
+    font-size: 35px;
   }
   .home-sci{
     display: none;
@@ -712,6 +758,20 @@ footer {
   .experience p{
     font-size: 10px;
   }
+  .SkillsHeader h2{
+    font-size: 15px;
+  }
+  .home-sci{
+    display: none;
+  }
+  .skill img{
+    margin: 5 15px ;
+    padding: 0;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+  }
+}
   .home-sci{
     display: none;
   }
