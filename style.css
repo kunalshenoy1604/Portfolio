@@ -325,7 +325,8 @@ span{
   }
   
   .Project1,
-  .Project2 {
+  .Project2,
+  .Project3 {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -340,7 +341,8 @@ span{
   }
 
   .Project1:hover,
-  .Project2:hover{
+  .Project2:hover,
+  .Project3:hover{
     transform: scale(1.02);
     box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.2);
   }
@@ -361,6 +363,13 @@ span{
   .Project1 h3,
   .Project2 h3 {
     margin-top: 20px;
+    font-size: 24px;
+    font-weight: 600;
+    text-align: center;
+    color: #333;
+  }
+  .Project3 h3{
+    margin: 0;
     font-size: 24px;
     font-weight: 600;
     text-align: center;
@@ -449,18 +458,15 @@ span{
     text-align: center;
     justify-content: center;
   }
+  
+  .skill{
+    text-align: center;
+  }
   .skill img{
     display: inline-block;
-    justify-content: center;
-    align-items: center;
-    margin: 0 auto;
-    padding: 0 10px;
-    box-sizing: border-box;
-    margin: 40px;
-    cursor: pointer;
+    margin: 10px; 
+    cursor:pointer;
   }
-
-
 
 
 
@@ -510,8 +516,28 @@ footer {
     padding: 0 15px;
     box-sizing: border-box;
   } 
-
-
+  @media(max-width:1500px){
+    .Project1, .Project2, .Project3{
+      height: 400px;
+      width: min-content;
+      padding: 0;
+    }
+    .Project1 h3, .Project2 h3, .Project3 h3{
+      font-size: 15px;
+      margin: 0;
+    }
+  }
+@media(max-width:1300px){
+  .Project1, .Project2, .Project3{
+    height: 400px;
+    width: min-content;
+    padding: 0;
+  }
+  .Project1 h3, .Project2 h3, .Project3 h3{
+    font-size: 15px;
+    margin: 0;
+  }
+}
 @media(max-width:1100px){
   .navbar a{
     margin-left: 20px;
@@ -554,12 +580,12 @@ footer {
     width: 200px;
     margin: 0 10px;
   }
-  .Project1, .Project2{
+  .Project1, .Project2, .Project3{
     height: 400px;
     width: min-content;
     padding: 0;
   }
-  .Project1 h3, .Project2 h3{
+  .Project1 h3, .Project2 h3, .Project3 h3{
     font-size: 15px;
     margin: 0;
   }
@@ -723,6 +749,9 @@ footer {
   .logoname a{
     font-size: 22px;
   }
+  .home-content h3{
+    font-size: 24px;
+  }
   .logo img{
     width: 135px;
     height: auto;
@@ -752,6 +781,9 @@ footer {
     width: 125px;
     height: auto;
   }
+  .home-content h3{
+    font-size: 24px;
+  }
   .experience h2{
     font-size: 15px;
   }
@@ -764,14 +796,9 @@ footer {
   .home-sci{
     display: none;
   }
-  .skill img{
-    margin: 5 15px ;
-    padding: 0;
-    flex-direction: column;
-    justify-content: center;
-    align-content: center;
-  }
+  
 }
+
   .home-sci{
     display: none;
   }
